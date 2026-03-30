@@ -30,7 +30,7 @@ git clone https://github.com/titanwings/colleague-skill ~/.claude/skills/create-
 
 ```bash
 # 克隆到 OpenClaw 的 skills 目录
-git clone https://github.com/titanwings/colleague-skill ~/.openclaw/workspace/skills/colleague-creator
+git clone https://github.com/titanwings/colleague-skill ~/.openclaw/workspace/skills/create-colleague
 ```
 
 重启 OpenClaw session，说 `/create-colleague` 启动。
@@ -95,7 +95,7 @@ python3 tools/feishu_browser.py \
 ## 快速验证
 
 ```bash
-cd ~/.claude/skills/colleague-creator   # 或你的项目 .claude/skills/colleague-creator
+cd ~/.claude/skills/create-colleague   # 或你的项目 .claude/skills/create-colleague
 
 # 测试飞书解析器
 python3 tools/feishu_parser.py --help
@@ -114,7 +114,7 @@ python3 tools/skill_writer.py --action list --base-dir ./colleagues
 本项目整个 repo 就是一个 skill 目录（AgentSkills 标准格式）：
 
 ```
-colleague-skill/        ← clone 到 .claude/skills/colleague-creator/
+colleague-skill/        ← clone 到 .claude/skills/create-colleague/
 ├── SKILL.md            # skill 入口（官方 frontmatter）
 ├── prompts/            # 分析和生成的 Prompt 模板
 ├── tools/              # Python 工具脚本

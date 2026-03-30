@@ -272,7 +272,7 @@ Layer 5 — Correction 层（对话纠正追加，滚动更新）
 ```
 ~/.openclaw/workspace/skills/
 │
-├── colleague-creator/                    # meta-skill：同事skill创建器
+├── create-colleague/                    # meta-skill：同事skill创建器
 │   │
 │   ├── SKILL.md                          # 主入口
 │   │                                     # 触发词: /create-colleague
@@ -400,7 +400,7 @@ user-invocable: true
 ## 九、实现优先级
 
 ### P0 — MVP（先跑通主流程）
-- [ ] `colleague-creator/SKILL.md` 主流程
+- [ ] `create-colleague/SKILL.md` 主流程
 - [ ] `prompts/intake.md` 基础信息录入
 - [ ] `prompts/work_analyzer.md` + `work_builder.md`
 - [ ] `prompts/persona_analyzer.md` + `persona_builder.md`

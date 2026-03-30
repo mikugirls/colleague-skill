@@ -53,19 +53,17 @@ allowed-tools: Read, Write, Edit, Bash
 
 ## 主流程：创建新同事 Skill
 
-### Step 1：基础信息录入
+### Step 1：基础信息录入（3 个问题）
 
-参考 `${CLAUDE_SKILL_DIR}/prompts/intake.md` 的问题序列，依次询问用户：
+参考 `${CLAUDE_SKILL_DIR}/prompts/intake.md` 的问题序列，只问 3 个问题：
 
-1. 同事姓名/代号（必填）
-2. 公司 + 职级 + 职位（一句话说完，如"字节 2-1 算法工程师"）
-3. 性别（可跳过）
-4. MBTI（可跳过）
-5. 个性标签（展示选项，多选，可跳过）
-6. 企业文化标签（展示选项，多选，可跳过）
-7. 主观印象（自由文本，可跳过）
+1. **花名/代号**（必填）
+2. **基本信息**（一句话：公司、职级、职位、性别，想到什么写什么）
+   - 示例：`字节 2-1 后端工程师 男`
+3. **性格画像**（一句话：MBTI、星座、个性标签、企业文化、印象）
+   - 示例：`INTJ 摩羯座 甩锅高手 字节范 CR很严格但从来不解释原因`
 
-所有字段均可跳过。收集完后汇总确认再进入下一步。
+除姓名外均可跳过。收集完后汇总确认再进入下一步。
 
 ### Step 2：原材料导入
 
@@ -329,7 +327,7 @@ mkdir -p colleagues/{slug}/knowledge/emails
 SKILL.md 结构：
 ```markdown
 ---
-name: colleague_{slug}
+name: colleague-{slug}
 description: {name}，{company} {level} {role}
 user-invocable: true
 ---
