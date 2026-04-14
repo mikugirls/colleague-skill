@@ -33,6 +33,12 @@
 
 ---
 
+> 🆕 **2026.04.14 更新** — **WeChat グループ開設！** dot-skill コミュニティで一緒に遊びましょう — skill をシェアしたり、機能を議論したり、Tips を交換したり。
+>
+> <img src="../assets/wechat-group-qr.png" alt="dot-skill WeChat グループ QR" width="240">
+>
+> QR は 7 日ごとに更新されます — 期限切れの場合は Discord で連絡してください。
+
 > 🆕 **2026.04.13 更新** — **dot-skill ロードマップ公開！** colleague.skill は **dot-skill** へ進化中 — 同僚だけでなく、誰でも蒸留可能に。マルチモーダル出力、スキルエコシステムなど、さらなる展開が進行中。
 >
 > 👉 **[ロードマップ全文を読む](ROADMAP_JA.md)** · **[💬 Discord](https://discord.gg/aRjmJBdK)**

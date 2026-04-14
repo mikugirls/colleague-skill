@@ -35,6 +35,12 @@
 
 ---
 
+> 🆕 **2026.04.14 更新** — **微信交流群建好啦！** 欢迎进群一起玩 dot-skill，分享 skill、聊聊功能、互相交流～
+>
+> <img src="../assets/wechat-group-qr.png" alt="dot-skill 微信群二维码" width="240">
+>
+> 二维码 7 天内有效，过期了就来 Discord 找我重新发。
+
 > 🆕 **2026.04.13 更新** — **dot-skill 路线图正式发布！** colleague.skill 正在进化为 **dot-skill** —— 蒸馏任何人，不止同事。多模态输出、技能生态等更多内容即将到来。
 >
 > 👉 **[查看完整路线图](ROADMAP_ZH.md)** · **[💬 Discord](https://discord.gg/aRjmJBdK)**

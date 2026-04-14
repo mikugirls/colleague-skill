@@ -35,6 +35,12 @@ and get an **AI Skill that actually works like them**
 
 ---
 
+> 🆕 **2026.04.14 Update** — **WeChat group is live!** Come hang out with the dot-skill community — share skills, discuss features, trade tips.
+>
+> <img src="docs/assets/wechat-group-qr.png" alt="dot-skill WeChat group QR" width="240">
+>
+> QR refreshes every 7 days — if expired, ping me on Discord.
+
 > 🆕 **2026.04.13 Update** — **dot-skill Roadmap is live!** colleague.skill is evolving into **dot-skill** — distill anyone, not just colleagues. Multimodal output, skill ecosystems, and more on the way.
 >
 > 👉 **[Read the full Roadmap](ROADMAP.md)** · **[💬 Discord](https://discord.gg/aRjmJBdK)**
